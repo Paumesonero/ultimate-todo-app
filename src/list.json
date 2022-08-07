@@ -11,7 +11,7 @@
     "name": "Finish ReactTraining ironhack lab iterations",
     "image": "https://www.datocms-assets.com/14946/1634728628-fotos-iron-hack-barcelona-jan-erra-14.jpg?auto=compress&fm=jpg",
     "useful_link": "https://github.com/ironhack-labs/lab-react-training",
-    "urgency": 10,
+    "urgency": 3,
     "description": "Do the lab",
     "done": true
   },
