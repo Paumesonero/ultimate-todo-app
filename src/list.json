@@ -13,7 +13,7 @@
     "useful_link": "https://github.com/ironhack-labs/lab-react-training",
     "urgency": 10,
     "description": "Do the lab",
-    "done": false
+    "done": true
   },
   {
     "name": "Do this awesome application",

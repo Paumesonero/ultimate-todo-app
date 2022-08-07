@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.App {
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/high/minimalist-purple-sky-and-mountain-ex4suuw5xd4funov.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*** footer ***/
+footer {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 250px;
+}
+
+/*** main card styles  ***/
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.each-task {
+    background-color: #fff;
+    width: 350px;
+    height: 340px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.each-task img {
+    border-radius: 5px;
+}
+
+.each-task:nth-child(4) img {
+    width: 180px;
+    height: 150px;
+}
+
+.each-task h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
