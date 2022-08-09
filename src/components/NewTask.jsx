@@ -33,7 +33,7 @@ export default function NewTask(props) {
                 <label htmlFor="name">Useful link</label>
                 <input type="text" placeholder='Link' name='name' value={link} onChange={(e) => { setLink(e.target.value) }} />
             </div>
-            <button>Create</button>
+            <button className='create-btn'>Create</button>
         </form>
     )
 }
