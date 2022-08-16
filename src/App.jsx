@@ -5,6 +5,7 @@ import Search from './components/Search';
 import NewTask from './components/NewTask';
 import { useState } from 'react';
 
+
 function App() {
   const [tasks, setTasks] = useState(tasksData)
 

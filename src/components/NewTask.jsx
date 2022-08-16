@@ -6,6 +6,7 @@ export default function NewTask(props) {
     const [name, setName] = useState('')
     const [urgency, setUrgency] = useState('')
     const [link, setLink] = useState('')
+    const [description, setDescription] = useState('')
 
     const handleForm = (e) => {
         e.preventDefault();
@@ -18,6 +19,7 @@ export default function NewTask(props) {
         setName('')
         setUrgency('')
         setLink('')
+        setDescription('')
     }
     return (
         <form action="" onSubmit={handleForm}>
@@ -32,6 +34,10 @@ export default function NewTask(props) {
             <div className='each-label-input'>
                 <label htmlFor="name">Useful link</label>
                 <input type="text" placeholder='Link' name='name' value={link} onChange={(e) => { setLink(e.target.value) }} />
+            </div>
+            <div className='each-label-input'>
+                <label htmlFor="name">Description</label>
+                <input type="text" placeholder='Description' name='description' value={description} onChange={(e) => { setDescription(e.target.value) }} />
             </div>
             <button className='create-btn'>Create</button>
         </form>

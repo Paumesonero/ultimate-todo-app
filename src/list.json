@@ -13,7 +13,7 @@
     "useful_link": "https://github.com/ironhack-labs/lab-react-training",
     "urgency": 3,
     "description": "Do the lab",
-    "done": true
+    "done": false
   },
   {
     "name": "Do this awesome application",
@@ -29,7 +29,7 @@
     "useful_link": "https://www.codewars.com/kata/54ba84be607a92aa900000f1",
     "urgency": 9,
     "description": "Do the Isograms kata",
-    "done": true
+    "done": false
   },
   {
     "name": "Do the second codewars kata",
